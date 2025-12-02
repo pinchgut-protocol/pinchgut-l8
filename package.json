@@ -1,0 +1,23 @@
+{
+  "name": "pinchgut-l8",
+  "version": "0.1.0",
+  "description": "Pinchgut L8 – a simple, open Layer 8 instruction & hash-linked ledger service.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "NODE_ENV=development node server.js"
+  },
+  "keywords": [
+    "layer8",
+    "protocol",
+    "ledger",
+    "pinchgut"
+  ],
+  "author": "Pinchgut Protocol",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0"
+  }
+}
